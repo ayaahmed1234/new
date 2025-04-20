@@ -1,0 +1,21 @@
+html  >>hyper text markup language
+
+
+ Question 01 =>  No
+ Question 02 => Yes 
+ Question 03 =>  No
+ Question 04 => No
+
+
+
+    <meta charset="UTF-8">
+    <!-- this is charset for all languages-->
+
+    <meta name="description" content="This Is Description For My First Page"/>
+    <!-- this is for writing desc for website-->
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- this is for different screens to match view-->
+
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+      <!--  short summary of the page's content-->
