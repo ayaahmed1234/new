@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>task7</title>
+  </head>
+  <body>
+    <form action="post">
+      <label for="">Email:</label>
+      <input
+        type="email"
+        name="email"
+        value="o@o.com"
+        readonly
+        required
+        minlength="5"
+        maxlength="20"
+      />
+      <br />
+      <br />
+      <br />
+
+      <label for="">Username:</label>
+      <input type="text" name="User" autofocus />
+
+      <input
+        type="hidden"
+        name="token"
+        value="b92f1fc2fce391ad7af633723afd3055"
+      />
+
+      <br />
+      <br />
+      <br />
+      <!-- task02 -->
+      <label for="an"> Analysis</label>
+      <input type="checkbox" name="skills" id="an" checked value="Analysis" />
+      <label for="ad"> Advanced Search</label>
+      <input type="checkbox" name="skills" id="ad" value="Advanced Search" />
+      <label for="lo"> Logical Thinking</label>
+      <input type="checkbox" name="skills" id="lo" value="Logical Thinking" />
+      <label for="pr"> Problem Solving</label>
+      <input type="checkbox" name="skills" id="pr" value="Problem Solving" />
+      <label for="pl"> Planning</label>
+      <input type="checkbox" name="skills" id="pl" />
+      <br />
+      <br />
+      <br />
+      <input type="radio" name="jop" id="busi" checked />
+      <label for="busi">Business Analyst</label>
+
+      <input type="radio" name="jop" id="back" value="Back-End" />
+      <label for="back">Back-End Developer</label>
+
+      <input type="radio" name="jop" id="fro" value="front-End " />
+      <label for="fro">front-End Developer</label>
+
+      <input type="radio" name="jop" id="scr" value="Scrum" />
+      <label for="scr">Scrum Master</label>
+      <input type="radio" name="jop" id="man" value="Project" />
+      <label for="man">Project Manager</label>
+      <br />
+      <br />
+      <br />
+
+      <input type="reset" value="Empty" />
+      <input type="submit" value="send data" />
+      <br />
+      <br />
+      <br />
+      <!-- task03 -->
+      <label for=""> CHOOSE BOOK:</label>
+      <select name="" id="">
+        <optgroup label="php">
+          <option value="">v5.0</option>
+          <option value="">v7.0</option>
+          <option value="">v8.0</option>
+        </optgroup>
+
+        <optgroup label="python">
+          <option value="">v2.0</option>
+          <option value="">v3.0</option>
+          <option value="">v3.9</option>
+        </optgroup>
+      </select>
+      <br />
+      <textarea name="brief" id="">
+ Write Here Why You Want To Learn Programming</textarea
+      >
+    </form>
+  </body>
+</html>
