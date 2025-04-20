@@ -1,0 +1,35 @@
+
+<!-- Type Question 1 Answer Below -->
+"<!doctype html>"
+
+<!-- Type Question 2 Answer Below -->
+"quirks"
+
+<!-- Type Question 3 Answer Below -->
+"no"
+
+<!-- Type Question 4 Answer Below -->
+"yes"
+
+<!-- Type Question 5 Answer Below -->
+"headings"
+
+
+
+02
+1.no
+
+03
+1.no
+
+04
+1.yes
+05
+title --->local
+href --->local
+src --->local
+hidden --->global
+charset --->local
+class  --->global
+id   --->global
+type --->local
