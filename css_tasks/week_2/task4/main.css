@@ -1,0 +1,19 @@
+.parent .child .title {
+    color: red;
+}
+.parent .title {
+    color: blue;
+}
+
+.title ,.parent p{
+    color: green;
+}
+.two {
+    width:  fit-content;
+    max-width: 400px;
+   background-color: crimson;
+   margin: 10px;
+   padding: 10px;
+   overflow: hidden;
+   max-height: 70px;
+}
