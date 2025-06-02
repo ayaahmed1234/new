@@ -1,0 +1,45 @@
+.t1 {
+    color: black;
+    text-shadow: .5px .5px 0px crimson  ,1px 1px 0px blue,1.5px 1.5px 0px purple ;
+  
+    font-size: larger;
+}
+.one {
+    text-transform: uppercase;
+}
+.two {
+    text-transform: capitalize;
+}
+.one ,.two ,.three {
+    text-align: center;
+}
+#o {
+    width: 400px;
+    background-color: whitesmoke;
+}
+#tw {
+    width: 400px;
+    background-color: whitesmoke;
+}
+#t {
+    width: 400px;
+    background-color: whitesmoke;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;;
+}
+a {
+    display: inline-block;
+    margin: 5px 50%;
+    padding: 5px;
+    text-align: center;
+    color: white;
+    background-color: darkseagreen;
+    text-decoration: none;
+    border-bottom: 10px seagreen solid;
+    width: 70px;
+    height: 30px;
+    font-size: larger;
+    font-weight: bold;
+
+}

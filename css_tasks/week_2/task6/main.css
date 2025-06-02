@@ -1,0 +1,46 @@
+div{
+    border: 2px solid rgb(0, 0, 0);
+    padding: 20px;
+    background-color: rgb(223, 217, 206);
+    width: 400px;
+    height: 100px;
+    margin: 5px 70px;
+}
+ div p{
+    border: 2px solid;
+    border-color: inherit;
+    padding: inherit;
+}
+.a{
+     font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 300;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+.b{
+    font-family: "Cairo", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}
+.c{
+   font-family: "Jomhuria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+html{
+    font-size: 20px;
+}
+.aa{
+    font-size: 2.5rem;
+}
+.bb{
+    font-size: 2rem;
+}
+.cc{
+    font-size: 1.5rem;
+}
